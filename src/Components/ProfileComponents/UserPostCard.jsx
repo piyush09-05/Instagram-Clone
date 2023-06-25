@@ -4,8 +4,8 @@ import './UserPostCard.css'
 
 const UserPostCard = () => {
   return (
-    <div style={{padding: '2px'}}>
-      <div className='post' style={{ width: '25vw', height: '50vh' }}>
+    <div style={{padding: '1px'}}>
+      <div className='post' style={{ width: '20vw', height: '20vh',marginLeft: '10vw' }}>
         <img
           src="https://cdn.pixabay.com/photo/2023/03/04/15/53/duck-7829778_1280.jpg"
           alt=""

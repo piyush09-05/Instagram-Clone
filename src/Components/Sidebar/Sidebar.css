@@ -1,5 +1,4 @@
 #sideHeader{
-    background-color: aquamarine;
     padding: 10%;
     text-align: center;
     padding-left: 2%;
@@ -57,5 +56,4 @@
    font-family: 'Papyrus', fantasy; 
   /* text-decoration: underline; */
    text-shadow: 1px 1px 2px #000; 
-   background-color: bisque;
 }

@@ -1,6 +1,7 @@
 .post{
     position: relative;
     overflow: hidden;
+    margin:0;
 }
 
 .post img{
