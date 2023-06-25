@@ -15,6 +15,7 @@ const Sidebar = () => {
         else if(title==="Home"){
             navigate("/");
         }
+       
     }
   return (
     <div id="sideHeader">
