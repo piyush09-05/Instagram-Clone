@@ -1,13 +1,20 @@
-import React from 'react'
-import "./HomePage.css";
+import './HomePage.css'
+import { useState } from "react";
+import Posts from '../../Components/Posts/Posts';
+import Suggestions from '../../Components/Suggestions/Suggestions';
 
+const HomePage = () =>{
 
-const HomePage = () => {
-  return (
-    <span id="homepg">
-      HomePage
-    </span>
-  )
+    return(
+        <div className="container">
+          <div className="postsDiv">
+            <Posts />
+          </div>
+          <div className="suggestionsDiv">
+            <Suggestions />
+          </div>
+        </div>
+    )
 }
 
-export default HomePage
+export default HomePage;
