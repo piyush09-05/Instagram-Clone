@@ -2,11 +2,15 @@ import React,{useState} from 'react';
 import { menu } from './SidebarConfig';
 import "./Sidebar.css";
 import { useNavigate } from 'react-router-dom';
+import CreatePostModel from '../Post/CreatePostModel';
+import { useDisclosure } from "@chakra-ui/react";
 
 const Sidebar = () => {
     const [activeTab,setActiveTab]=useState();
     const navigate=useNavigate();
-    
+    const { isOpen, onOpen, onClose } = useDisclosure()
+
+
     const handleTabClick=(title)=>{
         setActiveTab(title);
         if(title==="Profile"){
@@ -14,6 +18,10 @@ const Sidebar = () => {
         }
         else if(title==="Home"){
             navigate("/");
+        }
+        else if(title==="Create")
+        {
+          onOpen()
         }
        
     }
@@ -37,6 +45,7 @@ const Sidebar = () => {
 
        </div>
       </div>
+      <CreatePostModel onClose={onClose} isOpen={isOpen}></CreatePostModel>
     </div>
   );
 };

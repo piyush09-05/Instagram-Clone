@@ -2,11 +2,17 @@ import React from 'react'
 import "./HomePage.css";
 
 
+
 const HomePage = () => {
+  
   return (
-    <span id="homepg">
+    <div>
+      <span id="homepg">
       HomePage
     </span>
+    
+    </div>
+    
   )
 }
 
