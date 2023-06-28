@@ -1,0 +1,45 @@
+.drog-drop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drog-drop p{
+    margin: 0 0 1rem;
+}
+
+.custom-file-upload{
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(76, 84, 154);
+    border: 1px solid rgb(76, 84, 154);
+    cursor: pointer;
+}
+
+.custom-file-upload:hover{
+    background-color: rgb(52, 58, 105);
+    border-color: rgb(76, 84, 154);
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.fileInput{
+    display: none;
+}
+
+.captionIp{
+    width: 100%;
+    margin: 3vw;
+    outline: none;
+    resize: none;
+    font-size: small;
+}

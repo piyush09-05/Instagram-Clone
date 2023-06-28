@@ -1,0 +1,15 @@
+#pwrapper{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+#tabswrapper{
+    display: flex;
+    margin-left: 3.5rem;
+    border-top: 1px solid rgb(235, 231, 231);
+    position: relative;
+}

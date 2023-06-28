@@ -1,0 +1,44 @@
+#divwrapper {
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+  }
+  
+  #imgwrapper {
+    width: 15%;
+    margin-right: 10px;
+  }
+  
+  #img {
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+  }
+
+  #divwrapper {
+    /* Existing styles */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .stats-wrapper {
+    /* New styles for the stats wrapper */
+    display: flex;
+    width: 100%;
+    align-items: 'center';
+    margin-left: 12vw;
+  }
+  
+  .stats {
+    /* New styles for each stat */
+    flex: 1;
+    margin-right: 2vw;
+  }
+  
+  
