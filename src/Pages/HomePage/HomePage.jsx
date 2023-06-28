@@ -4,7 +4,6 @@ import Posts from '../../Components/Posts/Posts';
 import Suggestions from '../../Components/Suggestions/Suggestions';
 
 const HomePage = () =>{
-
     return(
         <div className="container">
           <div className="postsDiv">
@@ -15,6 +14,7 @@ const HomePage = () =>{
           </div>
         </div>
     )
+
 }
 
 export default HomePage;
